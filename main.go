@@ -1,8 +1,6 @@
 package main
 
-import (
-	"godesde0/files"
-)
+import "godesde0/funciones"
 
 func main() {
 	// variables.ShowIntegers()
@@ -46,5 +44,7 @@ func main() {
 	// files.GrabaTabla()
 	// files.SumaTabla()
 	// files.LeerArchivo()
-	files.LeerArchivoOs()
+	// files.LeerArchivoOs()
+
+	funciones.Calculos()
 }
