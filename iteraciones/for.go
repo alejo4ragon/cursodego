@@ -4,6 +4,15 @@ import (
 	"fmt"
 )
 
+/*
+* Solo podemos usar for para iterar
+* para simular un while se usa
+* for {
+*
+*}
+* usar break para romper el ciclo, se usa continue para evitar algo
+ */
+
 func Iterar() {
 	i := 0
 	for i < 10 {
