@@ -1,8 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"godesde0/ejercicios"
+	"godesde0/files"
 )
 
 func main() {
@@ -42,5 +41,10 @@ func main() {
 	// iteraciones.IterarPasosGrandes(0, 5, 100)
 
 	// ejercicios.PedirNumero()
-	fmt.Println(ejercicios.PedirNumeroGrabandoEnArchivo())
+	// fmt.Println(ejercicios.PedirNumeroGrabandoEnArchivo())
+
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	// files.LeerArchivo()
+	files.LeerArchivoOs()
 }

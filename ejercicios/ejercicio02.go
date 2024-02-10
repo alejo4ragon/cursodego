@@ -74,5 +74,7 @@ func PedirNumeroGrabandoEnArchivo() string {
 		Texto += fmt.Sprintf("%d x %d = %d \n", Numero, i, Numero*i)
 	}
 
+	Texto += "\n"
+
 	return Texto
 }
