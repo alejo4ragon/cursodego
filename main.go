@@ -1,6 +1,9 @@
 package main
 
-import "godesde0/ejercicios"
+import (
+	"fmt"
+	"godesde0/ejercicios"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -38,5 +41,6 @@ func main() {
 	// Iteraciones
 	// iteraciones.IterarPasosGrandes(0, 5, 100)
 
-	ejercicios.PedirNumero()
+	// ejercicios.PedirNumero()
+	fmt.Println(ejercicios.PedirNumeroGrabandoEnArchivo())
 }
