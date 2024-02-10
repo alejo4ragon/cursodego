@@ -17,9 +17,10 @@ func PedirNumero() {
 
 	for {
 		if scanner.Scan() {
+			ValorIngresado := scanner.Text()
 			Numero, Err = strconv.Atoi(scanner.Text())
 			if Err != nil {
-				fmt.Println("Ingresa un número entero, el dato que has ingresado es incorrecto: " + Err.Error())
+				fmt.Println("Ingresa un número entero, el dato que has ingresado es incorrecto: " + ValorIngresado)
 				continue
 			} else {
 				break
