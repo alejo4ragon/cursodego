@@ -1,9 +1,8 @@
 package main
 
-// "fmt"
-// "godesde0/variables"
-// "runtime"
-// "godesde0/ejercicios"
+import (
+	"godesde0/teclado"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -34,4 +33,7 @@ func main() {
 
 	// numero, esNumero, resultado := ejercicios.Ejercicio1("1asdasd")
 	// fmt.Println(numero, esNumero, resultado)
+
+	// Recibir datos por teclado
+	teclado.IngresoNumeros()
 }
