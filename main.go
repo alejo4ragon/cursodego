@@ -1,8 +1,6 @@
 package main
 
-import (
-	"godesde0/teclado"
-)
+import "godesde0/iteraciones"
 
 func main() {
 	// variables.ShowIntegers()
@@ -35,5 +33,8 @@ func main() {
 	// fmt.Println(numero, esNumero, resultado)
 
 	// Recibir datos por teclado
-	teclado.IngresoNumeros()
+	// teclado.IngresoNumeros()
+
+	// Iteraciones
+	iteraciones.IterarPasosGrandes(0, 5, 100)
 }
