@@ -1,6 +1,6 @@
 package main
 
-import "godesde0/iteraciones"
+import "godesde0/ejercicios"
 
 func main() {
 	// variables.ShowIntegers()
@@ -36,5 +36,7 @@ func main() {
 	// teclado.IngresoNumeros()
 
 	// Iteraciones
-	iteraciones.IterarPasosGrandes(0, 5, 100)
+	// iteraciones.IterarPasosGrandes(0, 5, 100)
+
+	ejercicios.PedirNumero()
 }
