@@ -16,6 +16,6 @@ func LlamarClosure() {
 	tablaDel := 2
 	MiTabla := tabla(tablaDel)
 	for i := 1; i <= 10; i++ {
-		fmt.Println(MiTabla)
+		fmt.Println(MiTabla())
 	}
 }
