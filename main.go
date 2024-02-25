@@ -1,6 +1,8 @@
 package main
 
-import "godesde0/funciones"
+import (
+	"godesde0/arreglos_slices"
+)
 
 func main() {
 	// variables.ShowIntegers()
@@ -46,5 +48,8 @@ func main() {
 	// files.LeerArchivo()
 	// files.LeerArchivoOs()
 
-	funciones.LlamarClosure()
+	// funciones.LlamarClosure()
+	// funciones.Exponencia(10)
+	arreglos_slices.MuestroArreglos()
+
 }
