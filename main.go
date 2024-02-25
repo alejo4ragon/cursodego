@@ -50,6 +50,9 @@ func main() {
 
 	// funciones.LlamarClosure()
 	// funciones.Exponencia(10)
-	arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroArreglos()
+	// arreglos_slices.MuestroMatriz()
+	// arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
 
 }
