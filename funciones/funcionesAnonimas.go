@@ -2,6 +2,13 @@ package funciones
 
 import "fmt"
 
+/*
+* Las funciones anonimas fueron pensadas para
+* no tener que crear muchas funciones, si no poder
+* generar calculos internos dentro de una función
+* junto con parámetros con los que ya cuenta esta
+* función padre.
+ */
 func Calculos() {
 
 	var numero3 int = 32
