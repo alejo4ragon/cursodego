@@ -1,7 +1,7 @@
 package main
 
 import (
-	"godesde0/arreglos_slices"
+	"godesde0/mapas"
 )
 
 func main() {
@@ -53,6 +53,7 @@ func main() {
 	// arreglos_slices.MuestroArreglos()
 	// arreglos_slices.MuestroMatriz()
 	// arreglos_slices.MuestroSlice()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 
 }
