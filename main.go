@@ -46,5 +46,5 @@ func main() {
 	// files.LeerArchivo()
 	// files.LeerArchivoOs()
 
-	funciones.Calculos()
+	funciones.LlamarClosure()
 }
