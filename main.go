@@ -1,5 +1,7 @@
 package main
 
+import "godesde0/webserver"
+
 func main() {
 	// variables.ShowIntegers()
 	// variables.RestoVariables()
@@ -71,4 +73,6 @@ func main() {
 
 	// var x string
 	// fmt.Scanln(&x)
+
+	webserver.MiWebServer()
 }
