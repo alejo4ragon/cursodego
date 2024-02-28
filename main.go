@@ -1,10 +1,5 @@
 package main
 
-import (
-	"godesde0/ejer_interfaces"
-	"godesde0/modelos"
-)
-
 func main() {
 	// variables.ShowIntegers()
 	// variables.RestoVariables()
@@ -58,10 +53,22 @@ func main() {
 	// mapas.MostrarMapas()
 	// users.AltaUsuario()
 
-	Johan := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Johan)
+	// Johan := new(modelos.Hombre)
+	// ejer_interfaces.HumanosRespirando(Johan)
 
-	Geral := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Geral)
+	// Geral := new(modelos.Mujer)
+	// ejer_interfaces.HumanosRespirando(Geral)
+	// defer_panic.VemosDefer()
+	// defer_panic.EjemploPanic()
 
+	// canal1 := make(chan bool)
+	// go goroutines.MiNombreLentooo("Johan Alejandro Aragón Peña", canal1)
+
+	// fmt.Println("Estoy aquí")
+	// defer func() {
+	// 	<-canal1
+	// }()
+
+	// var x string
+	// fmt.Scanln(&x)
 }
