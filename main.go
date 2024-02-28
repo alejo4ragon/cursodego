@@ -1,6 +1,6 @@
 package main
 
-import "godesde0/webserver"
+import "godesde0/middleware"
 
 func main() {
 	// variables.ShowIntegers()
@@ -74,5 +74,6 @@ func main() {
 	// var x string
 	// fmt.Scanln(&x)
 
-	webserver.MiWebServer()
+	// webserver.MiWebServer()
+	middleware.MiMiddleware()
 }
