@@ -31,6 +31,10 @@ func operacionesMidd(f func(int, int) int) func(int, int) int {
 	return func(a, b int) int {
 
 		fmt.Println("Inicio de operación")
+		if a == 2 {
+			a = 10
+		}
+
 		return f(a, b)
 	}
 }
