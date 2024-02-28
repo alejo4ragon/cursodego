@@ -1,7 +1,8 @@
 package main
 
 import (
-	"godesde0/mapas"
+	"godesde0/ejer_interfaces"
+	"godesde0/modelos"
 )
 
 func main() {
@@ -54,6 +55,13 @@ func main() {
 	// arreglos_slices.MuestroMatriz()
 	// arreglos_slices.MuestroSlice()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	// users.AltaUsuario()
+
+	Johan := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Johan)
+
+	Geral := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Geral)
 
 }
